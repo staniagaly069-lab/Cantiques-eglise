@@ -1,0 +1,23 @@
+name: dictionnaire_fr_lingala
+description: Dictionnaire bilingue Francais - Lingala 100% offline.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_tts: ^3.8.5
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/francais_lingala.json
+    - assets/data/lingala_francais.json
